@@ -213,6 +213,11 @@ lista-item__link:hover {
   margin-bottom: 1rem;
 }
 
+.noticia-info__item2:hover {
+  cursor: pointer;
+  color: var(--Soft-red);
+}
+
 .noticia-info__item3 {
   font-size: 1.5rem;
   line-height: 2.5rem;
