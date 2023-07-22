@@ -1,4 +1,5 @@
 const btn_hamburguer = document.querySelector(".container-hamburguer");
+const prueba = document.getElementsByClassName("lista-item__link");
 const palabra1 = document.querySelector(".opcion1");
 const palabra2 = document.querySelector(".opcion2");
 const palabra3 = document.querySelector(".opcion3");
@@ -13,6 +14,9 @@ const cambioDeMenu = () => {
   palabra2.classList.toggle("aparece");
   palabra3.classList.toggle("aparece");
   palabra4.classList.toggle("aparece");
+  prueba.forEach((element) => {
+    prueba.classList.add("probando");
+  });
 };
 
 btn_hamburguer.addEventListener("click", cambioDeMenu);
